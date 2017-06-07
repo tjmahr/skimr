@@ -115,7 +115,7 @@ significant digits incorrectly.
 Windows cannot print the spark-histogram characters when printing a data-frame. For example, 
 `"▂▅▇"` is printed as `"<U+2582><U+2585><U+2587>"`. This longstanding problem [originates in 
 the low-level code](http://r.789695.n4.nabble.com/Unicode-display-problem-with-data-frames-under-Windows-td4707639.html) 
-for printing dataframes. These values do show up when printing a data-frame created by 
+for printing data-frames. These values do show up when printing a data-frame created by 
 `skim()` as a list (`as.list()`) or as a matrix (`as.matrix()`).
 
 ## Contributing
